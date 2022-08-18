@@ -748,6 +748,6 @@ void MainWindow::on_actionAbout_triggered()
 
 void MainWindow::on_actionHelp_triggered()
 {
-    QDesktopServices::openUrl(QUrl(QApplication::organizationDomain()));
+    QDesktopServices::openUrl(QUrl("https://github.com/anmolmadaik/TextEditor/blob/main/README.md"));
 }
 
